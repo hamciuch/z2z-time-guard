@@ -1,0 +1,17 @@
+# prawdziwe configi z haslami MQTT - w repo tylko *.example
+config.json
+config.yaml
+!*.example
+
+# stan i logi
+*.db
+*.log
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# system
+.DS_Store
+Thumbs.db
